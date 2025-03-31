@@ -31,7 +31,7 @@ You also need [SecLists](https://github.com/danielmiessler/SecLists) installed, 
 ## Install tools on a Debian-based system:
 
 ```bash
-sudo apt install ffuf nmap whatweb jq
+sudo apt install ffuf nmap whatweb
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
 
