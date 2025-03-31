@@ -116,7 +116,7 @@ def main():
             except Exception as e:
                 print(f"[!] Error while running task: {e}")
 
-    print(f"\n✅ All tasks completed. Results saved in: {output_dir}")
+    print(f"\nAll tasks completed. Results saved in: {output_dir}")
 
 if __name__ == "__main__":
     main()
